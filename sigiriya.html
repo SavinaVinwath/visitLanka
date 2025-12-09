@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Destinations - Explore Sri Lanka</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .un {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            background-color: #fff;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .card h3 {
+            font-size: 1.2rem;
+            margin: 15px;
+        }
+        .card p {
+            font-size: 0.95rem;
+            margin: 0 15px 15px 15px;
+        }
+        .card-link {
+            display: block;
+            text-align: center;
+            margin-bottom: 15px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .card-link:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Explore Sri Lanka</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li><a class="nav-link" href="index.html#home">Home</a></li>
+                <li><a class="nav-link" href="index.html#about">About</a></li>
+                <li><a class="nav-link" href="index.html#destinations">Destinations</a></li>
+                <li><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+                <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="explore" class="section explore-section">
+    <div class="container">
+        <h2 class="un"><b>Unforgettable Destinations</b></h2>
+    </div>
+
+    <!-- Historical and cultural Sites -->
+    <div class="container my-5">
+
+        <div class="card-container" data-aos="fade-up"> 
+            <!-- Repeat this card structure for all historical places -->
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ed/85/6b/um-palacio-no-topo-da.jpg?w=900&h=500&s=1');"></div>
+                <h3>Sigiriya</h3>
+                <p><b>Sigiriya</b>, also known as the Lion Rock, is an ancient rock fortress located in the heart of Sri Lanka. Rising nearly 200 meters above the surrounding plains, it is famous for its stunning frescoes, the Mirror Wall, landscaped water gardens, and the massive lion-shaped gateway. Built in the 5th century by King Kashyapa, it is a UNESCO World Heritage Site admired for its history and breathtaking views.</p>
+                <a href="https://en.wikipedia.org/wiki/Sigiriya" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://chrisandwrensworld.com/wp-content/uploads/2024/09/galle-lighthouse-1.jpeg');"></div>
+                <h3>Galle Dutch Fort</h3>
+                <p><b>Galle Dutch Fort</b> in Galle is a historic fortress built by the Portuguese and later strengthened by the Dutch. It is famous for its colonial architecture, cobblestone streets, and ocean views. A UNESCO World Heritage Site, it hosts museums, cafes, and shops.</p>
+                <a href="https://en.wikipedia.org/wiki/Galle_Fort" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://lankatravels.lk/wp-content/uploads/2023/10/10010088-kandy-lake-0-1024x683.jpg');"></div>
+                <h3>Kandy</h3>
+                <p><b>Kandy</b> is a historic city in central Sri Lanka, home to the Temple of the Sacred Tooth Relic, scenic Kandy Lake, traditional arts, and festivals like Esala Perahera. It blends natural beauty with rich cultural heritage.</p>
+                <a href="https://en.wikipedia.org/wiki/Kandy" class="card-link">See more details</a>
+            </div>
+
+            <!-- Add all other historical/cultural cards here (Dambulla, Anuradhapura, etc.) using the same structure -->
+        </div>
+    </div>
+
+    <!-- Nature and wildlife -->
+    <div class="container my-5">
+        
+        <div class="card-container" data-aos="fade-up">
+            <!-- Example Nature/Wildlife cards -->
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/19/dd/0c.jpg');"></div>
+                <h3>Yala National Park</h3>
+                <p>Yala National Park, located in southeastern Sri Lanka, is renowned for its rich biodiversity. Home to elephants, leopards, crocodiles, and hundreds of bird species, the park offers visitors thrilling safari experiences. Its diverse ecosystems, including wetlands, forests, and grasslands, provide a unique opportunity to witness wildlife in their natural habitat.
+</p>
+                <a href="https://en.wikipedia.org/wiki/Yala_National_Park" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://fernandotravels.com.au/_next/image?url=https%3A%2F%2Fcms.fernandotravels.com.au%2Fblog-point%2Fuploads%2F67737dbad6297_Mirissa_Coconut_Hills.webp&w=3840&q=75');"></div>
+                <h3>Mirissa</h3>
+                <p><b>Mirissa</b>is a picturesque coastal town in Sri Lanka, famous for its golden beaches, thrilling whale watching tours, and lively nightlife. Lined with swaying coconut palms, it offers serene sunsets and a relaxing atmosphere. Visitors enjoy swimming, sunbathing, and exploring local cafes, making it an ideal tropical getaway destination..</p>
+                <a href="https://en.wikipedia.org/wiki/Mirissa" class="card-link">See more details</a>
+            </div>
+
+           
+             <div class="card">
+                <div class="card-image" style="background-image: url('https://glimpseoflanka.tours/wp-content/uploads/2024/12/GOLanka-blog-featured-Anuradhapura-01.webp');"></div>
+                <h3>Anuradhapura</h3>
+                <p><b>Anuradhapura</b> is one of Sri Lanka’s most ancient and sacred cities, renowned for its well-preserved ruins of early Sri Lankan civilization. As a UNESCO World Heritage Site, it is home to majestic stupas, ancient monasteries, royal palaces, and the revered Sri Maha Bodhi Tree, believed to be the oldest living tree planted by human hands. Once the powerful capital of Sri Lanka for over a thousand years, Anuradhapura remains a spiritual and historical center that showcases the island’s rich Buddhist heritage.</p>
+                <a href="https://en.wikipedia.org/wiki/Anuradhapura" class="card-link">See more details</a>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://lp-cms-production.imgix.net/2019-06/GettyImages-546421195_full.jpg?fit=crop&ar=1%3A1&w=1200&auto=format&q=75');"></div>
+                <h3>Polonnaruwa</h3>
+                <p><b>Polonnaruwa</b> is an ancient royal city in Sri Lanka and a UNESCO World Heritage Site, known for its impressive stone temples, statues, palaces, and irrigation systems. It served as the island’s capital in the 11th–13th centuries and showcases the architectural and engineering brilliance of the era. Landmarks like the Gal Vihara, with its beautifully carved Buddha statues, and the Parakrama Samudraya reservoir highlight Polonnaruwa’s historical and cultural importance</p>
+                <a href="https://en.wikipedia.org/wiki/Polonnaruwa" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://t3.ftcdn.net/jpg/03/64/95/12/360_F_364951258_xLzCW41kr5AV7OXdVv49ufv6u0XL3nqq.jpg');"></div>
+                <h3>Sri Dalada Maligawa</h3>
+                <p><b>Sri Dalada Maligawa:</b> Located in Kandy, Sri Lanka, the Temple of the Sacred Tooth Relic is one of the most sacred Buddhist sites in the world. It houses a relic of Lord Buddha’s tooth and is a symbol of Sri Lankan heritage, culture, and religion. The temple complex features stunning Kandyan architecture, golden roofs, and a tranquil atmosphere, attracting thousands of pilgrims and tourists annually.</p>
+                <a href="https://en.wikipedia.org/wiki/Temple_of_the_Tooth" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mihinthale%2C_Sri_Lanka.jpg/2560px-Mihinthale%2C_Sri_Lanka.jpg');"></div>
+                <h3>Mihinthale</h3>
+                <p><b>Mihinthale</b> is a sacred pilgrimage site in Sri Lanka, believed to be the place where Arahat Mahinda met King Devanampiya Tissa and introduced Buddhism to the island. The site features ancient stairways, stupas, and monasteries. Its peaceful atmosphere and historical significance make it one of Sri Lanka’s most revered religious. </p>                     
+                <a href="https://en.wikipedia.org/wiki/Mihintale" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://www.ceylonexpeditions.com/medias/destination_places/big/110/sri-pada-adam-s-peak-sri-lanka.jpg');"></div>
+                <h3>Sri Pada / Adam's Peak</h3>
+                <p><b>Sri Pada / Adam's Peak</b>is a sacred mountain in Sri Lanka known for the holy footprint at its summit, worshipped by multiple religions. Thousands of pilgrims climb the long staircase each year, especially during the season, to witness the breathtaking sunrise and the famous “shadow of the peak” phenomenon.</p>
+                <a href="https://en.wikipedia.org/wiki/Adam%27s_Peak" class="card-link">See more details</a>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://www.attractionsinsrilanka.com/wp-content/uploads/2021/01/Yapahuwa-Rock-Fortress.jpg');"></div>
+                <h3>Yapahuwa</h3>
+                <p><b>Yapahuwa</b> was a medieval fortress and royal palace built on a steep rock in north-western Sri Lanka. It once served as the kingdom’s capital and protected the Sacred Tooth Relic. The grand stone staircase, intricate carvings, and impressive defensive structures highlight its historical and architectural importance.</p>                     
+                <a href="https://en.wikipedia.org/wiki/Yapahuwa" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://d104tpg70nvstz.cloudfront.net/2016/09/Untitled-14.jpg');"></div>
+                <h3>Avukana Buddha Statue</h3>
+                <p><b>Avukana Buddha Statue</b> is a magnificent 12-meter stone sculpture built during the 5th century. Carved from a single granite rock, it is celebrated for its perfect proportions and detailed craftsmanship. The statue depicts the Buddha in the Abhaya Mudra, symbolizing protection and peace, attracting pilgrims and visitors year-round. </p>                    
+                <a href="https://en.wikipedia.org/wiki/Avukana_Buddha_statue" class="card-link">See more details</a>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://airlinescrewtours.com/wp-content/uploads/2022/09/IPS1.jpg');"></div>
+                <h3>Independence Square</h3>
+                <p><b>Independence Square</b> in Colombo marks Sri Lanka’s freedom from British rule in 1948. Its memorial hall, inspired by ancient Kandyan architecture, is a national symbol of pride. The peaceful surroundings, landscaped gardens, and jogging paths make it a popular spot for recreation, reflection, and cultural events in the city.</p>                     
+                <a href="https://en.wikipedia.org/wiki/Independence_Memorial_Hall" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://thehaphazardtraveler.com/wp-content/uploads/2025/02/things-to-do-in-Jaffna-Sri-Lanka-Jaffna-travel-guide.jpg');"></div>
+                <h3>Jaffna</h3>
+                <p><b>Jaffna,</b> located in northern Sri Lanka, is a vibrant region rich in Tamil culture, history, and tradition. Known for its friendly communities, unique cuisine, and historic sites, Jaffna blends colonial influences with deep-rooted heritage. Key attractions include Jaffna Fort, Nallur Temple, and beautiful northern beaches.</p>                     
+                <a href="https://en.wikipedia.org/wiki/Jaffna" class="card-link">See more details</a>
+            </div>
+            
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/nallur-temple-in-jaffna-600_orig.jpg');"></div>
+                <h3>Nallur Kandaswamy Kovil</h3>
+                <p><b>Nallur Kandaswamy Kovil</b>  is one of Sri Lanka’s most important Hindu temples, dedicated to Lord Murugan. Known for its golden gopuram and vibrant atmosphere, the temple hosts daily rituals and the grand Nallur Festival. Visitors admire its spiritual energy, traditional music, and rich cultural heritage.</p>                    
+                <a href="https://en.wikipedia.org/wiki/Nallur_Kandaswamy_temple" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://tropicallifedambulla.com/wp-content/uploads/2019/07/jayasrimahabodi2.jpg');"></div>
+                <h3>Sri Maha bodhi</h3>
+                <p><b>Sri Maha bodhi</b> in Anuradhapura is the world’s oldest historically documented tree, grown from a branch of the sacred Bodhi tree under which the Buddha attained enlightenment. It is a deeply revered pilgrimage site, surrounded by shrines, offerings, and centuries of Buddhist tradition and devotion.</p>                     
+                <a href="https://en.wikipedia.org/wiki/Jaya_Sri_Maha_Bodhi" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://www.lakpura.com/images/LK94007410-03-E.JPG');"></div>
+                <h3>Kataragama</h3>
+                <p><b>Kataragama</b> is a major pilgrimage town in southern Sri Lanka, sacred to Buddhists, Hindus, and indigenous communities. Devotees visit the Ruhunu Kataragama Maha Devalaya to seek blessings from God Kataragama. The town becomes especially vibrant during the annual festival, featuring rituals, processions, and traditional performances.</p>                     
+                <a href="https://en.wikipedia.org/wiki/Kataragama_Temple" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/36/Spiritual_16.jpg');"></div>
+                <h3>Koneshvaram temple</h3>
+                <p><b>Koneshvaram temple</b> in Trincomalee is a historic Hindu temple perched on a cliff overlooking the Indian Ocean. Dedicated to Lord Shiva, it is known for its breathtaking views, ancient carvings, and deep cultural significance. The temple draws pilgrims and visitors who admire its spiritual atmosphere and scenic beauty.</p>                    
+                <a href="https://en.wikipedia.org/wiki/Koneswaram_Temple" class="card-link">See more details</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5f/12/9e/mahamevnawa-monastery.jpg?w=1200&h=1200&s=1');"></div>
+                <h3>Mahamevnawa Buddhist Monastery</h3>
+                <p><b>Mahamevnawa Buddhist Monastery</b>is a respected Sri Lankan monastic community dedicated to teaching the pure Buddha Dhamma. Founded by Ven. Kiribathgoda Gnanananda Thero, it offers a peaceful environment for meditation, sermons, and spiritual development. The monastery welcomes devotees seeking guidance, mindfulness, and a deeper understanding of Buddhist teachings in a serene, disciplined setting.</p>
+                <a href="#" class="card-link">See more details</a>
+            </div>
+        </div>
+    </div>
+
+            <!-- Add remaining nature/wildlife cards (Galle Face Green, Horton Plains, Ravana Falls, Gregory Lake, Boburu Ella, Dunhida Ella, etc.) using the same structure -->
+        </div>
+    </div>
+
+    <!-- Back button -->
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-secondary">← Back to Home</a>
+    </div>
+</section>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+</body>
+</html>
